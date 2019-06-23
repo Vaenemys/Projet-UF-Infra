@@ -1,0 +1,18 @@
+Pour l'installer:
+sudo apt-get install apache2
+sudo apt-get install php5
+sudo apt-get install mysql
+sudo apt-get install ssh
+
+Nous pouvons nous connecter au serveur désormais installé grace au "ssh", en configurant la carte réseau de la VM
+Nous pouvons utiliser un logiciel comme PuTTY pour pouvoir communiquer avec ce dernier
+
+pour démarrer le serveur
+etc/init.d/apache2 start
+
+pour avoir accès au site pour déposer des données ou en récupérer:
+http://127.0.0.1
+Si l'on voit le message "It works", le serveur fonctionne
+
+
+Il ne restera plus qu'a le configurer pour ensuite l'adapter au besoin
